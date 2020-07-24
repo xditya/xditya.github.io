@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from visi.tk/ by HTTrack Website Copier/3.x [XR&CO'2017], Fri, 24 Jul 2020 04:03:32 GMT -->
+<!-- Mirrored from visi.tk/create by HTTrack Website Copier/3.x [XR&CO'2017], Fri, 24 Jul 2020 04:03:38 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8" />
@@ -163,18 +163,38 @@
         <h1>
             Create and use as your <br /> &gt; <span class="typed" style="color:red;"></span>
         </h1>
+
         <div class="iframe fix-height">
             <iframe class="fix-height" src="../external.html?link=https://www.youtube.com/embed/yd9EGaGTjyo" frameborder="5" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <h2 class="text">Build your beautiful, customisable webpage now!</h2>
 
-        <p style="color:#fff; font-size:20px;">
-       &gt;To get started. Click <a href= "create.html">here</a>
-      </p>
-        <br>
-      	<p style="color:#fff; font-size:15px;">
-
-      &copy; Sumanjay<br>All Rights Reserved.</p>
+        <h2 class="text">Steps:</h2>
+        <ol class="list-text">
+            <li>
+                Click
+                <a href="../external.html?link=https://gist.githubusercontent.com/cyberboysumanjay/f25e9c9945876e1e5aea954621929995/raw/46bd445a6b211962999361bd64078a167f051c27/data.json" target="_blank">here</a
+        >
+        and copy the opened JSON Text
+      </li>
+      <br />
+      <li>
+        Open any paste service like
+        <a href="../external.html?link=https://hastebin.com/">hastebin.com</a> or
+                <a href="../external.html?link=https://del.dog/">del.dog</a> and paste the JSON Contents
+            </li>
+            <br />
+            <li>
+                Edit the values according to your data as specified in the
+                <a href="../external.html?link=https://youtu.be/yd9EGaGTjyo" target="_blank">video</a>
+            </li>
+            <br />
+            <li>
+                Save the file and copy the generated paste link and send to
+                <a href="../external.html?link=https://telegram.dog/visitkbot" target="_blank">this bot</a>
+            </li>
+            <br />
+            <li>Bot will reply with your public page link.</li>
+        </ol>
     </div>
     <script type="text/javascript " src="static/js/typed.min.js"></script>
     <script>
@@ -194,8 +214,24 @@
             loopCount: false
         });
     </script>
+    <script type="text/javascript">
+        var clipboard = new ClipboardJS(".btn");
+
+        clipboard.on("success", function(e) {
+            console.info("Action:", e.action);
+            console.info("Text:", e.text);
+            console.info("Trigger:", e.trigger);
+            alert("JSON Link Copied to Clipboard");
+            e.clearSelection();
+        });
+
+        clipboard.on("error", function(e) {
+            console.error("Action:", e.action);
+            console.error("Trigger:", e.trigger);
+        });
+    </script>
 </body>
 
 
-<!-- Mirrored from visi.tk/ by HTTrack Website Copier/3.x [XR&CO'2017], Fri, 24 Jul 2020 04:03:38 GMT -->
+<!-- Mirrored from visi.tk/create by HTTrack Website Copier/3.x [XR&CO'2017], Fri, 24 Jul 2020 04:03:38 GMT -->
 </html>
