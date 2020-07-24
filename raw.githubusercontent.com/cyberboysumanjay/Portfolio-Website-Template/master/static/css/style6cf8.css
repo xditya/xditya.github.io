@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+body{
+  background-color: rgb(10, 10, 10);
+}
+h1{
+  color: #fff;
+  font-size:30px;
+  font-family: "Poppins", sans-serif;
+}
+h2{
+  color: #fff;
+  font-size:20px;
+  font-family: "Poppins", sans-serif;
+}
+
+h2:before {
+    content:"• ";
+}
+
+.list-text{
+  color:#fff;
+  font-size:18px;
+
+    font-family: "Questrial", sans-serif;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: #2ef2ef;
+  text-decoration: none;
+}
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+  color: #fff
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+#footer {
+    width: 100%;
+    padding: 8vh 0px;
+    text-align: center;
+}
+
+#footer a {
+    color: #fff !important;
+    text-decoration: none;
+    font-family: "Questrial", sans-serif;
+    font-weight: bold;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 8px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.btn {
+  background-color: #f44336;
+  color: black;
+  border: solid #f44336;
+}
+
+.btn:hover {
+  background-color: rgb(10,10,10);
+  color: white;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,8 @@
+-@i4 -O /storage/emulated/0/HTTrack/Websites/XD -A25000k%Px%q0u1s2%s%u%fDaK0H0N0p3 https://visi.tk/xditya +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2017], %s -->" -%l LANGUAGE_ISO,*
+File generated automatically on Fri, 24 Jul 2020 09:33:14, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+
