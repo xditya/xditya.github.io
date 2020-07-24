@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.visi.tk	TRUE	/	FALSE	1999999999	__cfduid	d7148b96883ac72648e084987030c43f11595563507
+visi.tk	TRUE	/	FALSE	1999999999	SameSite	Lax
+
